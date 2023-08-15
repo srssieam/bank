@@ -31,7 +31,7 @@ document.getElementById('withdraw').addEventListener('click', function(){
         return;
     }
     if(newWithdrawAmount > previousTotalBalance){
-        alert("tor Baap er bank a eto taka nai");
+        alert("তোমার একাউন্ট এ এতো টাকা নাই");
         return;
     }
     const currentWithdwawBalance = previousWithdrawBalance + newWithdrawAmount;
